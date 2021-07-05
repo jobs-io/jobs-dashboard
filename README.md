@@ -1,2 +1,11 @@
-# jobs-dashboard
-jobs dashboard npm
+# Jobs Dashboard Client
+
+## Job Summary
+
+```typescript
+export class JobSummary {
+  string title
+  string company
+  string[] descriptions
+}
+```
