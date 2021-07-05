@@ -1,23 +1,24 @@
 {
-  "name": "jobs-dashboard",
-  "version": "1.0.0",
-  "description": "jobs dashboard npm",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jobs-io/jobs-dashboard.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jobs-io/jobs-dashboard/issues"
-  },
-  "homepage": "https://github.com/jobs-io/jobs-dashboard#readme",
-  "devDependencies": {
-    "tslint": "^6.1.3",
-    "typescript": "^4.3.5"
-  }
+    "name": "jobs-dashboard",
+    "version": "1.0.0",
+    "description": "jobs dashboard npm",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jobs-io/jobs-dashboard.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jobs-io/jobs-dashboard/issues"
+    },
+    "homepage": "https://github.com/jobs-io/jobs-dashboard#readme",
+    "devDependencies": {
+        "tslint": "^6.1.3",
+        "typescript": "^4.3.5"
+    }
 }
