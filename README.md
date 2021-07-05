@@ -7,5 +7,6 @@ export class JobSummary {
   string title
   string company
   string[] descriptions
+  string path
 }
 ```
